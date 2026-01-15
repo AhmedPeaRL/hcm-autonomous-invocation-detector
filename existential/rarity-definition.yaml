@@ -1,0 +1,20 @@
+rarity:
+  definition: "A condition that cannot be optimized for"
+  frequency: "unknown"
+  inducible: false
+
+forbidden_triggers:
+  - time
+  - profit_target
+  - user_request
+  - schedule
+  - retry
+
+allowed_sources:
+  - market_discontinuity
+  - liquidity_anomaly
+  - cross-venue asymmetry
+
+post_detection:
+  allow_thinking: true
+  allow_execution: false
