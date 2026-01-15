@@ -1,0 +1,11 @@
+invocation:
+  mode: "passive"
+  trigger: "external_state_change"
+  schedule: null
+
+cooldown:
+  enforced: true
+  duration: undefined
+
+memory:
+  store_past_hits: false
