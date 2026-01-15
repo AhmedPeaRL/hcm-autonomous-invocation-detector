@@ -1,0 +1,11 @@
+bridge:
+  target: hcm-execution-envelope
+  pass_only:
+    - context_hash
+    - anomaly_signature
+    - detection_timestamp
+
+forbidden:
+  - decision
+  - command
+  - instruction
